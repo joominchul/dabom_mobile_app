@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" />
+    <stroke android:width="2dp" android:color="#CCCCCC" />
+    <corners android:radius="8dp" /> <!-- 각 꼭지점을 8dp 크기의 원으로 둥글게 처리 -->
+</shape>

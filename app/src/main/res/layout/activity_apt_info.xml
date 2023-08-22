@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayouts_info"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:background="@drawable/border_shape">  <!-- 여기서 @drawable/border_shape은 방금 만든 drawable 파일의 이름입니다 -->
+
+        <LinearLayout
+            android:id="@+id/linearLayoutline"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:orientation="horizontal"
+            android:background="#CCCCCC">
+
+            <TextView
+                android:id="@+id/line1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#888888"
+                android:gravity="center" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayouts1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="주소"
+                android:background="@drawable/border_shape" />
+            <TextView
+                android:id="@+id/textView_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="아파트명"
+                android:background="@drawable/border_shape" />
+            <TextView
+                android:id="@+id/textView_rate"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="전세율"
+                android:background="@drawable/border_shape" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayouts2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/text_dealH"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="최대매매가"
+                android:background="@drawable/border_shape"/>
+
+            <TextView
+                android:id="@+id/dealH_value"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="값"
+                android:background="@drawable/border_shape"/>
+
+
+
+            <TextView
+                android:id="@+id/text_dealL"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="최소매매가"
+                android:background="@drawable/border_shape"/>
+
+            <TextView
+                android:id="@+id/dealL_value"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="값"
+                android:background="@drawable/border_shape"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayouts3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/text_yearH"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="최대전세가"
+                android:background="@drawable/border_shape"/>
+            <TextView
+                android:id="@+id/yearH_value"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="값"
+                android:background="@drawable/border_shape"/>
+
+            <TextView
+                android:id="@+id/text_yearL"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="최소전세가"
+                android:background="@drawable/border_shape"/>
+
+            <TextView
+                android:id="@+id/yearL_value"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="값"
+                android:background="@drawable/border_shape"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayouts4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+
+
+            <TextView
+                android:id="@+id/dealing1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="실거래가"
+                android:background="@drawable/border_shape"/>
+
+            <TextView
+                android:id="@+id/dealing_value1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="값"
+                android:background="@drawable/border_shape"/>
+
+
+
+            <TextView
+                android:id="@+id/dealing_date1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="거래연월"
+                android:background="@drawable/border_shape"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayouts5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+
+
+            <TextView
+                android:id="@+id/dealing2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="실거래가"
+                android:background="@drawable/border_shape"/>
+
+            <TextView
+                android:id="@+id/dealing_value2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="값"
+                android:background="@drawable/border_shape"/>
+
+
+
+            <TextView
+                android:id="@+id/dealing_date2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="거래연월"
+                android:background="@drawable/border_shape"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayouts6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/border_shape">
+
+
+
+            <TextView
+                android:id="@+id/dealing3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="실거래가"
+                android:background="@drawable/border_shape"/>
+
+            <TextView
+                android:id="@+id/dealing_value3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="값"
+                android:background="@drawable/border_shape"/>
+
+
+
+            <TextView
+                android:id="@+id/dealing_date3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="거래연월"
+                android:background="@drawable/border_shape"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

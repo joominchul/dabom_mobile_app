@@ -1,0 +1,96 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECECEC">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="210dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toTopOf="@+id/mapsearch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/mapsearch"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="168dp"
+        android:background="@drawable/button_background"
+        android:drawableTop="@drawable/coding_location"
+        app:layout_constraintEnd_toStartOf="@+id/typesearch"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/typesearch"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="168dp"
+        android:background="@drawable/button_background"
+        android:drawableTop="@drawable/coding_search"
+        app:layout_constraintEnd_toStartOf="@+id/sub"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/mapsearch"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+     <Button
+        android:id="@+id/sub"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="168dp"
+        android:background="@drawable/button_background"
+        android:drawableTop="@drawable/coding_intro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/typesearch"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textViewMapSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="지도로 찾기"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@+id/mapsearch"
+        app:layout_constraintStart_toStartOf="@id/mapsearch"
+        app:layout_constraintEnd_toEndOf="@id/mapsearch"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewTypeSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="매물별 찾기"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@+id/typesearch"
+        app:layout_constraintStart_toStartOf="@id/typesearch"
+        app:layout_constraintEnd_toEndOf="@id/typesearch"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="앱 소개"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@+id/sub"
+        app:layout_constraintStart_toStartOf="@id/sub"
+        app:layout_constraintEnd_toEndOf="@id/sub"
+        android:layout_marginTop="16dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

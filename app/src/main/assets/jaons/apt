@@ -1,0 +1,42 @@
+[
+	{
+		"complexNo": "146479",
+		"complexName": "YH빌리지",
+		"cortarNo": "1168010300",
+		"realEstateTypeCode": "APT",
+		"realEstateTypeName": "아파트",
+		"detailAddress": "1237-8",
+		"latitude": 37.478247,
+		"longitude": 127.04667,
+		"totalHouseholdCount": 16,
+		"totalBuildingCount": 1,
+		"highFloor": 6,
+		"lowFloor": 6,
+		"useApproveYmd": "20170908",
+		"dealCount": 0,
+		"leaseCount": 0,
+		"rentCount": 0,
+		"shortTermRentCount": 0,
+		"cortarAddress": "서울시 강남구 개포동"
+	},
+	{
+		"complexNo": "119219",
+		"complexName": "개포래미안포레스트",
+		"cortarNo": "1168010300",
+		"realEstateTypeCode": "APT",
+		"realEstateTypeName": "아파트",
+		"detailAddress": "1282",
+		"latitude": 37.478448,
+		"longitude": 127.054031,
+		"totalHouseholdCount": 2296,
+		"totalBuildingCount": 31,
+		"highFloor": 35,
+		"lowFloor": 7,
+		"useApproveYmd": "20200928",
+		"dealCount": 133,
+		"leaseCount": 116,
+		"rentCount": 119,
+		"shortTermRentCount": 1,
+		"cortarAddress": "서울시 강남구 개포동"
+	}
+]
