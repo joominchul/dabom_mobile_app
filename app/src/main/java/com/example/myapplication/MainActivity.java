@@ -55,13 +55,15 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-
     @Override
     public void onBackPressed() {
+        super.onBackPressed();
         new AlertDialog.Builder(MainActivity.this)
                 .setMessage("앱을 종료하시겠습니까?")
                 .setPositiveButton("아니요", null)
-                .setNegativeButton("네", (dialog, which) ->  { finish(); })
+                .setNegativeButton("네", (dialog, which) -> {
+                    finish();
+                })
                 .show();
     }
 
