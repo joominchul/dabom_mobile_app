@@ -11,7 +11,7 @@
 프로젝트 목표 : 사용자들이 부동산 정보를 확인, 제공 받을 수 있게 함.
 
 주요 기능 : 
-<img source = "https://github.com/joominchul/dabom_mobile_app/blob/main/%EC%95%B1%20%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4.png?raw=true" width = "90%"></img>
+<img src = "https://github.com/joominchul/dabom_mobile_app/blob/main/%EC%95%B1%20%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4.png?raw=true" width = "90%"></img>
 
 표로 매물 검색 - 지역별, 가격별, 이름별 검색 가능. 검색 조건에 맞는 부동산 매물의 정보(이름, 주소, 전세가율, 최대/최소 전세가, 최대/최소 매매가, 실거래가) 표시.
 
